@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <!-- Stylesheet CDN -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+      <!-- Stylesheet -->
+      <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="../images/logo.png">
+                <h2 class="yeye">IPRC</h2><h2 class="yaya"> <span class="yaya"> Ngoma</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                        </span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a class="active" href="#">
+                    <span class="material-icons-sharp">
+                        notifications
+                        </span>
+                        <h3>Notification</h3>
+                        <span class="notification-count">23</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        description
+                        </span>
+                        <h3>Missions</h3>
+
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        person_add_alt
+                        </span>
+                        <h3>Add Users</h3>
+
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        manage_accounts
+                        </span>
+                        <h3>Manage Account</h3>
+                </a>
+
+
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        logout
+                        </span>
+                        <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+         <!-- END OF ASIDE -->
+         <main>
+<div class="recent-mission">
+    <h2>Recent Missions</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Delivered</th>
+            <th>Bearer's Title</th>
+            <th>Purpose of Mission</th>
+            <th>Departure Date</th>
+            <th>Return Date</th>
+            <th>Status</th>
+        </tr></thead>
+    <tbody>
+        <tr>
+            <td>Pop Loner</td>
+            <td>LAB Assistant</td>
+            <td>Purchasing HD</td>
+            <td>11/10/2022</td>
+            <td>15/10/2022</td>
+            <td class="warning">Pending</td>
+            <td class="primary">Details</td>
+        </tr>
+    </tbody>
+    </table>
+</div></main>
+        <!-- END OF MAIN -->
+         <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                        </span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                        </span>
+                        <span class="material-icons-sharp">
+                            dark_mode
+                            </span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey,<b>Chandelier</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="../images/profile-1.jpg">
+                    </div>
+                </div>
+            </div>
+         </div>
+        
+        </div>
+<script src="../index.js"></script>
+    </body>
+</html>
